@@ -193,8 +193,14 @@ a.navbar-item.is-active {
   }
   .back-icon {
     font-size: 50px;
+    &:hover {
+      transform: scale(1.2);
+    }
     a {
       color: rgb(0, 0, 0);
+      &:hover {
+        color: rgb(148, 147, 147);
+      }
     }
   }
   .title {
@@ -393,10 +399,14 @@ a.navbar-item.is-active {
   .section-title {
     margin-bottom: 50px;
   }
-  ul {
-    list-style: none;
+  .category {
+    margin-bottom: 6px;
   }
   h2 {
     text-decoration: underline;
+    display: inline-block;
+    &:hover {
+      transform: scale(1.08);
+    }
   }
 }
